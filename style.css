@@ -1,0 +1,161 @@
+body {
+  background-color: #edf6f9;
+  color: #006d77;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+  display: block;
+  margin: 8px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #006d77;
+  cursor: pointer;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: inline;
+  margin: 5px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #006d77;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #83c5be;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.list-inline {
+  list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+  padding-left: 0px;
+  font-size: 20px;
+  color: rgb(230, 230, 230);
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #e29578;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+.fa, .fa-brands, .fa-duotone, .fa-light, .fa-regular, .fa-solid, .fa-thin, .fab, .fad, .fal, .far, .fas, .fat {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.fa-linkedin:before {
+  content: "\f08c";
+}
+
+.fa-twitter-square:before {
+  content: "\f081";
+}
+
+.fa-brands, .fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
